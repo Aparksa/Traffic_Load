@@ -1,0 +1,22 @@
+{
+  "name": "trafficload",
+  "description": "With jsx",
+  "version": "0.0.50",
+  "dependencies": {
+    "react-jsx-highcharts": "latest",
+    "react-dom": "latest",
+    "react-bootstrap-table": "latest",
+    "react": "latest",
+    "highstock-release": "latest",
+    "highcharts": "latest"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
