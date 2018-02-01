@@ -447,6 +447,12 @@ g.highcharts-series, .highcharts-point {
   stroke-width: 2px;
 }
 
+.highcharts-plot-line.hour {
+    fill: none;
+  stroke:red;
+  stroke-width: 2px;
+}
+
 
 /* Highcharts More */
 .highcharts-boxplot-box {

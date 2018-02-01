@@ -47,43 +47,6 @@ var products = [{
     scenar: "N"
 }, ]
 
-const HOURS = [
-  "06: 20",
-  "06: 22",
-  "06: 24",
-  "06: 26",
-  "06: 28",
-  "06: 30",
-  "06: 32",
-  "06: 34",
-  "06: 38",
-  "06: 40",
-  "06: 40",
-  "06: 42",
-  "06: 44",
-  "06: 46",
-  "06: 48",
-  "06: 50",
-  "06: 52",
-  "06: 54",
-  "06: 56",
-  "06: 58",
-  "07: 00",
-  "07: 02",
-  "07: 04",
-  "07: 06",
-  "07: 08",
-  "07: 10",
-  "07: 12",
-  "07: 14",
-  "07: 16",
-  "07: 18",
-  "07: 20",
-  "07: 22",
-  "07: 24",
-  "07: 26",
-  "07: 28"
-];
 
 const App = () => (
   <div className="app">
@@ -114,14 +77,14 @@ const App = () => (
 
       <Tooltip valueSuffix=" 000 traffic" shared />
 
-      <XAxis type="datetime" categories={HOURS}>
+      <XAxis type="datetime" categories={data.hours}>
         <XAxis.Title>HOURS</XAxis.Title>
         <PlotLine
           id="hour"
           className="hour"
-          value={HOURS[2]}
-          width={1}
-          color="#666"
+          value={data.hours[8]}
+          width={2}
+          color="#FF00006"
         >
           <PlotLine.Label>NOW</PlotLine.Label>
         </PlotLine>
